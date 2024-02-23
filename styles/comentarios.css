@@ -1,0 +1,33 @@
+.comentarios {
+    padding: 0 7em 6em 7em;
+}
+
+.comentarios__container {
+    background-color: var(--rosa-claro);
+    text-align: center;
+    padding: 4em;
+    border-radius: 16px;
+}
+
+.comentarios__titulo {
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comentarios__texto {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2em;
+    padding: 1em 0;
+}
+
+.colaborador__nome {
+    font-weight: 500;
+    margin: 1em;
+}
+
+.colaborador__cargo {
+    color: var(--cinza-claro);
+    font-size: 14px;
+}
