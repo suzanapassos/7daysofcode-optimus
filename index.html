@@ -16,6 +16,26 @@
 </head>
 <body>
     <header class="cabecalho">
+        <div class="container__menu-hamburger">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista__menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista__menu__link">Produtos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista__menu__link">Recursos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista__menu__link">Sobre nós</a>
+                </li>
+            </ul>
+        </div>
         <div class="cabecalho__logo">
             <img src="./assets/logo.svg" alt="Logotipo OptimusTech">
             <h2 class="cabecalho__logo-nome">OptimusTech</p>
@@ -38,7 +58,7 @@
         </nav>
         <div class="cabecalho__botoes">
             <a href="#" class="cabecalho__botoes__item">Entrar</a>
-            <a href="#" class="cabecalho__botoes__item botao__vermelho">Cadastrar</a>
+            <a href="#" class="cabecalho__botoes__item botao__vermelho botao__transparente">Cadastrar</a>
         </div>
     </header>
 
@@ -77,7 +97,7 @@
             <p class="vagas__texto">Vagas abertas!</p>
             <h2 class="vagas__titulo">Estamos procurando por talentos</h2>
             <p class="vagas__subtitulo">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-            <img src="./assets/pessoas.svg" alt="Pessoas reunidas em local de trabalho">
+            <img src="./assets/pessoas.svg" alt="Pessoas reunidas em local de trabalho" class="vagas__imagem">
         </div>
 
         <div class="vagas__descricoes">
@@ -124,7 +144,7 @@
     <section class="comentarios">
         <div class="comentarios__container">
             <p class="comentarios__titulo">Veja o que nossos colaboradores falam sobre nós</p>
-            <h2 class="comentarios__texto">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+            <h2 class="comentarios__texto">"OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível."</h2>
             <img src="./assets/avatar.svg" alt="Foto da colaboradora">
             <p class="colaborador__nome">Júlia Castro</p>
             <p class="colaborador__cargo">Desenvolvedora Web</p>

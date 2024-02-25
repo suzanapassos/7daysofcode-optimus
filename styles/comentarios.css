@@ -31,3 +31,23 @@
     color: var(--cinza-claro);
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .comentarios{
+        padding: 0 4em 2em 4em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .comentarios {
+        padding: 1em;
+    }
+    
+    .comentarios__container{
+        padding: 1em;
+    }
+    
+    .comentarios__texto {
+        font-size: 16px;
+    }
+}

@@ -53,3 +53,36 @@
     color: var(--cinza-claro);
     line-height: 1.5em;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre__container{
+        padding: 2em;
+    }
+    .sobre__metricas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sobre__metricas__item {
+        width: 80%;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .sobre__metricas {
+        grid-template-columns: 1fr;
+        padding: 1em;
+        justify-items: center;
+    }
+
+    .sobre__container{
+        padding: 1em;
+    }
+
+    .sobre__titulo{
+        font-size: 36px;
+    }
+    
+}
